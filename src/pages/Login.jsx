@@ -16,7 +16,9 @@ export default function Login() {
   useEffect(
     function () {
       function check() {
-        isAuthenticated ? navigate("/app") : console.log("incorrect");
+        isAuthenticated
+          ? navigate("/app", { replace: true })
+          : console.log("incorrect");
       }
       check();
     },

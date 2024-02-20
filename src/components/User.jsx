@@ -5,6 +5,7 @@ import { useNavigate } from "react-router";
 function User() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
+  
   function handleClick(e) {
     e.preventDefault();
     logout();

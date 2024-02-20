@@ -44,6 +44,7 @@ function reducer(state, action) {
         cities: state.cities.filter((city) => city.id !== action.payload),
         currentCity: {},
       };
+
     case "rejected":
       return {
         ...state,
@@ -61,8 +62,6 @@ function CitiesProvider({ children }) {
     reducer,
     initialState
   );
-
-
 
   useEffect(function () {
     async function fetchCities() {

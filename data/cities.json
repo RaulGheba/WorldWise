@@ -1,3 +1,64 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "id": "34a3",
+      "cityName": "Galve",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-14T12:09:07.751Z",
+      "notes": "",
+      "position": {
+        "lat": "40.613952441166596",
+        "lng": "-0.8349609375000001"
+      }
+    },
+    {
+      "id": "a2f5",
+      "cityName": "Valdelaguna",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-14T12:10:22.011Z",
+      "notes": "",
+      "position": {
+        "lat": "40.17887331434698",
+        "lng": "-3.3618164062500004"
+      }
+    },
+    {
+      "id": "4e73",
+      "cityName": "Oradea",
+      "country": "Romania",
+      "emoji": "🇷🇴",
+      "date": "2024-02-15T13:52:02.792Z",
+      "notes": "Awesome!",
+      "position": {
+        "lat": "47.025206001585396",
+        "lng": "21.939697265625004"
+      }
+    },
+    {
+      "id": "9e34",
+      "cityName": "Oradea",
+      "country": "Romania",
+      "emoji": "🇷🇴",
+      "date": "2024-02-16T09:02:09.589Z",
+      "notes": "culoare: gri",
+      "position": {
+        "lat": "47.050709729217786",
+        "lng": "21.94004058837891"
+      }
+    },
+    {
+      "id": "cada",
+      "cityName": "Lupiana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-02-16T09:05:39.538Z",
+      "notes": "",
+      "position": {
+        "lat": "40.613952441166596",
+        "lng": "-3.0102539062500004"
+      }
+    }
+  ]
 }
